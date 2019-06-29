@@ -1,0 +1,21 @@
+public class Ifelse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i;
+		i = 45;
+		
+		if(i >= 80) {				// 80점 이상이라면
+			System.out.println("A");
+		}
+		else if(i >= 60) {			// 60점 이상이라면
+			System.out.println("B");
+		}
+		else if(i >= 40) {			// 40점 이상이라면
+			System.out.println("C");
+		}
+		else
+			System.out.println("D");
+	}
+
+}
